@@ -1,0 +1,50 @@
+.App {
+
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+ul {
+  margin: 10px;
+}
+
+label {
+  margin: 10px;
+  width: 150px;
+}
+
+button {
+  margin: 10px;
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input {
+  width: 400px;
+}
+
+
+th {
+  border: 2px solid forestgreen;
+  text-align: left;
+}
+
+td {
+  border: 1px solid forestgreen;
+  text-align: left;
+}
+
+table {
+  margin: 10px;
+}
+
