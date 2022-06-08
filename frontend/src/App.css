@@ -10,6 +10,8 @@
   color: white;
 }
 
+/* .login {} */
+
 ul {
   margin: 10px;
 }
@@ -21,7 +23,7 @@ label {
 
 button {
   margin: 10px;
-  width: 80px;
+  width: fit-content;
   padding: 5px;
   text-align: center;
   font-size: 16px;
@@ -30,21 +32,39 @@ button {
 }
 
 input {
+  width: 150px;
+  padding: 2px;
+}
+
+.EthAddr {
   width: 400px;
+  /* margin: 10px; */
+  padding: 2px;
 }
 
 
+select {
+  width: 400px;
+  /* margin: 10px; */
+  padding: 2px;
+}
+
 th {
   border: 2px solid forestgreen;
-  text-align: left;
+  /* width: 400px; */
+  padding: 5px;
+  /* text-align: left; */
 }
 
 td {
   border: 1px solid forestgreen;
-  text-align: left;
+  /* width: 100px; */
+  padding: 5px;
+  /* text-align: left; */
 }
 
 table {
   margin: 10px;
+  width: 400px;
 }
 

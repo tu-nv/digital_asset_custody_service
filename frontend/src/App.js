@@ -118,14 +118,11 @@ function App() {
   if (!user) {
     return (
       <div className="App">
-        <label >Username:
-        <input type="text" required onInput={onUsernameChange} />
-          </label>
-        <div>
-          <label >password:
-          <input type="password" required onInput={onPasswordChange} />
-          </label>
-        </div>
+        <label >Username
+          <input type="text" required onInput={onUsernameChange} />
+        </label>
+        <label >Password
+          <input type="password" required onInput={onPasswordChange} /> </label>
         <button type="submit" onClick={handleLogin}>Login</button>
         <button type="submit" onClick={handleSignup}>Sign Up</button>
       </div>
@@ -163,10 +160,6 @@ function App() {
                 </tr>
               )
             })}
-          {/* <tr>
-            <td>Total</td>
-            <td>{walletWithBalances.reduce((total, e) => total + e.balance, 0 )}</td>
-          </tr> */}
           </tbody>
         </table>
 
@@ -178,7 +171,7 @@ function App() {
         </label>
 
         <label className='label'> Recipient
-          <input type="text" onInput={onRecipientChange}/>
+        <input className='EthAddr' type="text" onInput={onRecipientChange}/>
         </label>
 
         <label> Amount of ETH
